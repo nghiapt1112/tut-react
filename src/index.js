@@ -4,11 +4,13 @@ import './index.css';
 import Game from './components/Game';
 import Example from './components/nghia';
 import * as serviceWorker from './serviceWorker';
+import Table from './components/Table';
 
 ReactDOM.render(
   <React.StrictMode>
     <Game />
     <Example />
+    <Table/>
   </React.StrictMode>,
   document.getElementById('root')
 );
