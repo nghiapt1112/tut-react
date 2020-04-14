@@ -4,7 +4,7 @@ import './index.css';
 import Game from './components/Game';
 import Example from './components/nghia';
 import * as serviceWorker from './serviceWorker';
-import Table from './components/Table';
+import Table from './components/table2/Table';
 
 ReactDOM.render(
   <React.StrictMode>

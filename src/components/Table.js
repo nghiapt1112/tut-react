@@ -93,15 +93,15 @@ function Table({ normalizeData }) {
     setTableData(normalizeData(data), meta);
   }, []);
 
-  setHeaderMeta(
-    currentHeaderMeta => {
-      // changes the meta the header uses to pass the approriate sort function
-      currentHeaderMeta.map(m =>
-        m.sort ? { ...m, sortFunc: () => sortFunc(m) } : m
-      );
-    },
-    [sortBy]
-  );
+  // setHeaderMeta(
+  //   currentHeaderMeta => {
+  //     // changes the meta the header uses to pass the approriate sort function
+  //     currentHeaderMeta.map(m =>
+  //       m.sort ? { ...m, sortFunc: () => sortFunc(m) } : m
+  //     );
+  //   },
+  //   [sortBy]
+  // );
 
   function normalizeData(data) {
     return data.map(td => {
