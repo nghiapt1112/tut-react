@@ -33,7 +33,6 @@ const useStyles = makeStyles({
 
 const CoffeeCard = (props) => {
     const classes = useStyles();
-    const bull = <span className={classes.bullet}>•</span>;
     const {avatarUrl, title, price, description, imageUrl} = props;
     return (
         <Card className={classes.root}>
