@@ -12,9 +12,11 @@
     "@material-ui/core": "latest",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.10.0",
+    "axios": "^0.20.0",
     "clsx": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "latest"
   },
   "browserslist": {
